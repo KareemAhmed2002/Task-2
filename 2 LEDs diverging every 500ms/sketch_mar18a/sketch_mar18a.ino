@@ -1,5 +1,5 @@
 void setup() {
-  // set pins 2 and 3 as outputs
+  
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
 }
@@ -10,12 +10,12 @@ void loop() {
   digitalWrite(3, LOW);
   delay(500);
   
-  // turn off LED 1 and turn on LED 2
+  
   digitalWrite(2, LOW);
   digitalWrite(3, HIGH);
   delay(500);
   
-  // turn off both LEDs
+  
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
   delay(500);
